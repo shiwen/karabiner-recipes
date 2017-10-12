@@ -5,6 +5,14 @@
             "description": "Press F6 to focus on the address bar in Chrome",
             "manipulators": [
                 {
+                    "conditions": [
+                        {
+                            "bundle_identifiers": [
+                                "^com\\.google\\.Chrome$"
+                            ],
+                            "type": "frontmost_application_if"
+                        }
+                    ],
                     "from": {
                         "key_code": "f6",
                         "modifiers": {
@@ -18,14 +26,6 @@
                             "key_code": "l",
                             "modifiers": [
                                 "command"
-                            ]
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "type": "frontmost_application_if",
-                            "bundle_identifiers": [
-                                "^com\\.google\\.Chrome$"
                             ]
                         }
                     ],
