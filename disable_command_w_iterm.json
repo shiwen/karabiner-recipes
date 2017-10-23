@@ -2,7 +2,7 @@
     "title": "Disable command+W in iTerm2",
     "rules": [
         {
-            "description": "Disable command+Q",
+            "description": "Disable command+W in iTerm2",
             "manipulators": [
                 {
                     "from": {
