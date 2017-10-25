@@ -1,6 +1,30 @@
 {
-    "title": "Disable command+W in iTerm2",
+    "title": "Disable some key combinations",
     "rules": [
+        {
+            "description": "Disable command+Q",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "q",
+                        "modifiers": {
+                            "mandatory": [
+                                "command"
+                            ],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "vk_none"
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
         {
             "description": "Disable command+W in iTerm2",
             "manipulators": [
