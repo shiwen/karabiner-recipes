@@ -56,6 +56,38 @@
                     "type": "basic"
                 }
             ]
+        },
+        {
+            "description": "Disable command+R in iTerm2",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "r",
+                        "modifiers": {
+                            "mandatory": [
+                                "command"
+                            ],
+                            "optional": [
+                                "caps_lock"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "vk_none"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "bundle_identifiers": [
+                                "^com\\.googlecode\\.iterm2$"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
         }
     ]
 }
