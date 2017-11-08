@@ -1,5 +1,5 @@
 {
-    "title": "Use option as command in shortcuts command+tab and command+tilde",
+    "title": "Remap some key combinations",
     "rules": [
         {
             "description": "Map option+tab to command+tab",
