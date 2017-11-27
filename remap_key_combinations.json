@@ -54,33 +54,6 @@
                     "type": "basic"
                 }
             ]
-        },
-        {
-            "description": "Map fn+space to ctrl+space",
-            "manipulators": [
-                {
-                    "from": {
-                        "key_code": "spacebar",
-                        "modifiers": {
-                            "mandatory": [
-                                "fn"
-                            ],
-                            "optional": [
-                                "any"
-                            ]
-                        }
-                    },
-                    "to": [
-                        {
-                            "key_code": "spacebar",
-                            "modifiers": [
-                                "control"
-                            ]
-                        }
-                    ],
-                    "type": "basic"
-                }
-            ]
         }
     ]
 }

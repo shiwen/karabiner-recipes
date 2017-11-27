@@ -1,8 +1,8 @@
 {
-    "title": "Use caps_lock as control",
+    "title": "Use caps_lock as fn",
     "rules": [
         {
-            "description": "Use caps_lock as control",
+            "description": "Use caps_lock as fn",
             "manipulators": [
                 {
                     "from": {
@@ -15,7 +15,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "left_control"
+                            "key_code": "fn"
                         }
                     ],
                     "to_if_alone": [
