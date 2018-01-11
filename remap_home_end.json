@@ -1,0 +1,64 @@
+{
+    "title": "Remap home and end in some apps",
+    "rules": [
+        {
+            "description": "Remap home and end in some apps",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "home",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "a"
+                        },
+                        "modifiers": [
+                            "control"
+                        ]
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "bundle_identifiers": [
+                                "^com\\.tencent\\.xinWeChat$"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "end",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "e"
+                        },
+                        "modifiers": [
+                            "control"
+                        ]
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "bundle_identifiers": [
+                                "^com\\.tencent\\.xinWeChat$"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        }
+    ]
+}
