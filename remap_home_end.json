@@ -15,11 +15,11 @@
                     },
                     "to": [
                         {
-                            "key_code": "a"
-                        },
-                        "modifiers": [
-                            "control"
-                        ]
+                            "key_code": "a",
+                            "modifiers": [
+                                "control"
+                            ]
+                        }
                     ],
                     "conditions": [
                         {
@@ -42,11 +42,11 @@
                     },
                     "to": [
                         {
-                            "key_code": "e"
-                        },
-                        "modifiers": [
-                            "control"
-                        ]
+                            "key_code": "e",
+                            "modifiers": [
+                                "control"
+                            ]
+                        }
                     ],
                     "conditions": [
                         {
