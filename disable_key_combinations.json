@@ -2,7 +2,7 @@
     "title": "Disable some key combinations",
     "rules": [
         {
-            "description": "Disable command+Q",
+            "description": "Disable command+q",
             "manipulators": [
                 {
                     "from": {
@@ -26,7 +26,7 @@
             ]
         },
         {
-            "description": "Disable command+W in iTerm2",
+            "description": "Disable command+w in iTerm2",
             "manipulators": [
                 {
                     "from": {
@@ -58,7 +58,7 @@
             ]
         },
         {
-            "description": "Disable command+R in iTerm2",
+            "description": "Disable command+r in iTerm2",
             "manipulators": [
                 {
                     "from": {
