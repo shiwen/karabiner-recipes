@@ -1,8 +1,8 @@
 {
-    "title": "Remap home and end in some apps",
+    "title": "Map home and end to control+a, control+e",
     "rules": [
         {
-            "description": "Remap home and end in some apps",
+            "description": "Map home and end to control+a, control+e",
             "manipulators": [
                 {
                     "from": {
@@ -18,15 +18,6 @@
                             "key_code": "a",
                             "modifiers": [
                                 "control"
-                            ]
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "type": "frontmost_application_if",
-                            "bundle_identifiers": [
-                                "^com\\.tencent\\.xinWeChat$",
-                                "^com\\.sublimetext\\.3$"
                             ]
                         }
                     ],
@@ -46,15 +37,6 @@
                             "key_code": "e",
                             "modifiers": [
                                 "control"
-                            ]
-                        }
-                    ],
-                    "conditions": [
-                        {
-                            "type": "frontmost_application_if",
-                            "bundle_identifiers": [
-                                "^com\\.tencent\\.xinWeChat$",
-                                "^com\\.sublimetext\\.3$"
                             ]
                         }
                     ],
