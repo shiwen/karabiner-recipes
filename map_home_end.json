@@ -1,8 +1,8 @@
 {
-    "title": "Map home and end to control+a, control+e",
+    "title": "Map home and end to command+left_arrow, command+right_arrow",
     "rules": [
         {
-            "description": "Map home and end to control+a, control+e",
+            "description": "Map home and end to command+left_arrow, command+right_arrow",
             "manipulators": [
                 {
                     "from": {
@@ -15,9 +15,9 @@
                     },
                     "to": [
                         {
-                            "key_code": "a",
+                            "key_code": "left_arrow",
                             "modifiers": [
-                                "control"
+                                "command"
                             ]
                         }
                     ],
@@ -34,9 +34,9 @@
                     },
                     "to": [
                         {
-                            "key_code": "e",
+                            "key_code": "right_arrow",
                             "modifiers": [
-                                "control"
+                                "command"
                             ]
                         }
                     ],
