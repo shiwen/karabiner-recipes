@@ -2,11 +2,11 @@
     "title": "Disable some key combinations",
     "rules": [
         {
-            "description": "Disable command+q",
+            "description": "Disable command+h",
             "manipulators": [
                 {
                     "from": {
-                        "key_code": "q",
+                        "key_code": "h",
                         "modifiers": {
                             "mandatory": [
                                 "command"
