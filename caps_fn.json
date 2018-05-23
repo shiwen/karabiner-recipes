@@ -9,7 +9,7 @@
                         "key_code": "caps_lock",
                         "modifiers": {
                             "optional": [
-                                "caps_lock"
+                                "any"
                             ]
                         }
                     },
