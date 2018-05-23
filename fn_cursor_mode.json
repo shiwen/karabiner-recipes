@@ -126,7 +126,7 @@
                                 "fn"
                             ],
                             "optional": [
-                                "any"
+                                "caps_lock"
                             ]
                         }
                     },
@@ -148,7 +148,7 @@
                                 "fn"
                             ],
                             "optional": [
-                                "any"
+                                "caps_lock"
                             ]
                         }
                     },
