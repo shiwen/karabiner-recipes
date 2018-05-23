@@ -5,6 +5,13 @@
             "description": "Use caps_lock as fn",
             "manipulators": [
                 {
+                    "conditions": [
+                        {
+                            "name": "caps_lock_pressed",
+                            "type": "variable_if",
+                            "value": 1
+                        }
+                    ],
                     "from": {
                         "key_code": "caps_lock",
                         "modifiers": {
@@ -24,6 +31,52 @@
                             "hold_down_milliseconds": 100
                         }
                     ],
+                    "type": "basic"
+                },
+                {
+                    "from": {
+                        "key_code": "caps_lock",
+                        "modifiers": {
+                            "optional": [
+                                "any"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "fn"
+                        }
+                    ],
+                    "to_if_alone": [
+                        {
+                            "set_variable": {
+                                "name": "caps_lock_pressed",
+                                "value": 1
+                            }
+                        }
+                    ],
+                    "to_delayed_action": {
+                        "to_if_canceled": [
+                            {
+                                "set_variable": {
+                                    "name": "caps_lock_pressed",
+                                    "value": 0
+                                }
+                            }
+                        ],
+                        "to_if_invoked": [
+                            {
+                                "set_variable": {
+                                    "name": "caps_lock_pressed",
+                                    "value": 0
+                                }
+                            }
+                        ]
+                    },
+                    "parameters": {
+                        "basic.to_if_alone_timeout_milliseconds": 500,
+                        "basic.to_delayed_action_delay_milliseconds": 500
+                    },
                     "type": "basic"
                 }
             ]
