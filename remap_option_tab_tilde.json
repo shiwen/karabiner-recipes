@@ -1,5 +1,5 @@
 {
-    "title": "Remap some key combinations",
+    "title": "Remap option+tab and option+tilde",
     "rules": [
         {
             "description": "Map option+tab to command+tab",
