@@ -12,7 +12,7 @@
                                 "option"
                             ],
                             "optional": [
-                                "any"
+                                "shift"
                             ]
                         }
                     },
@@ -39,7 +39,7 @@
                                 "option"
                             ],
                             "optional": [
-                                "any"
+                                "shift"
                             ]
                         }
                     },
