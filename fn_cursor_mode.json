@@ -6,7 +6,7 @@
             "manipulators": [
                 {
                     "from": {
-                        "key_code": "j",
+                        "key_code": "h",
                         "modifiers": {
                             "mandatory": [
                                 "fn"
@@ -25,7 +25,7 @@
                 },
                 {
                     "from": {
-                        "key_code": "k",
+                        "key_code": "j",
                         "modifiers": {
                             "mandatory": [
                                 "fn"
@@ -44,7 +44,7 @@
                 },
                 {
                     "from": {
-                        "key_code": "i",
+                        "key_code": "k",
                         "modifiers": {
                             "mandatory": [
                                 "fn"
@@ -82,7 +82,7 @@
                 },
                 {
                     "from": {
-                        "key_code": "u",
+                        "key_code": "o",
                         "modifiers": {
                             "mandatory": [
                                 "fn"
@@ -101,7 +101,7 @@
                 },
                 {
                     "from": {
-                        "key_code": "o",
+                        "key_code": "p",
                         "modifiers": {
                             "mandatory": [
                                 "fn"
@@ -126,7 +126,8 @@
                                 "fn"
                             ],
                             "optional": [
-                                "caps_lock"
+                                "caps_lock",
+                                "shift"
                             ]
                         }
                     },
@@ -148,7 +149,8 @@
                                 "fn"
                             ],
                             "optional": [
-                                "caps_lock"
+                                "caps_lock",
+                                "shift"
                             ]
                         }
                     },
