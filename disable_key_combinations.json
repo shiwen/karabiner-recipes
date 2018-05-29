@@ -12,8 +12,7 @@
                                 "command"
                             ],
                             "optional": [
-                                "caps_lock",
-                                "fn"
+                                "caps_lock"
                             ]
                         }
                     },
@@ -37,8 +36,7 @@
                                 "command"
                             ],
                             "optional": [
-                                "caps_lock",
-                                "fn"
+                                "caps_lock"
                             ]
                         }
                     },
@@ -70,8 +68,7 @@
                                 "command"
                             ],
                             "optional": [
-                                "caps_lock",
-                                "fn"
+                                "caps_lock"
                             ]
                         }
                     },
@@ -103,8 +100,7 @@
                                 "command"
                             ],
                             "optional": [
-                                "caps_lock",
-                                "fn"
+                                "caps_lock"
                             ]
                         }
                     },
